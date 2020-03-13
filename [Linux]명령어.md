@@ -2,7 +2,7 @@
 
 ### hostname 변경 방법
 
-![image-20200219134227570](C:/Users/student/Desktop/Linux_note/images/image-20200219134227570.png)
+![image-20200219134227570](images/image-20200219134227570.png)
 
 ```xml
 hostnamectl set-hstname 변경할이름
@@ -77,13 +77,13 @@ ls -al
 
 * `touch 파일명` : 파일명 이라는 파일 생성
 
-![image-20200219141532109](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200219141532109.png)
+![image-20200219141532109](images/image-20200219141532109.png)
 
 ### cp
 
 * `cp 복사할대상 붙여넣을대상` : 복사할대상을 붙여넣을대상에 복사함
 
-![image-20200219141521260](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200219141521260.png)
+![image-20200219141521260](images/image-20200219141521260.png)
 
 * 
 
@@ -97,13 +97,13 @@ ls -al
 
   명령어를 치면 지울 것인지에 대한 질문이 나오는데, Yes(or y)하면 지워진다.
 
-![image-20200219141723401](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200219141723401.png)
+![image-20200219141723401](images/image-20200219141723401.png)
 
 * `rm -f 지울대상` : 지울 때 확인질문 없이 바로 삭제
 
 * `rmdir 폴더명`  : 폴더를 지운다.
 
-  ![image-20200219142305145](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200219142305145.png)
+  ![image-20200219142305145](images/image-20200219142305145.png)
 
 
 
@@ -111,7 +111,7 @@ ls -al
 
 * `rm -r 디렉토리` :  디렉토리를 지운다. 폴더 깊이만큼 삭제 확인질문이 나온다. 
 
-![image-20200219142805764](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200219142805764.png)
+![image-20200219142805764](images/image-20200219142805764.png)
 
 
 

@@ -45,7 +45,7 @@ MultipleOutputs : 한 개의 입력데이터를 이용해서 여러개의 output
 
 ---
 
-![image-20200221142752510](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200221142752510.png)
+![image-20200221142752510](images/image-20200221142752510.png)
 
 
 

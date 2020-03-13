@@ -2,13 +2,13 @@ C:\iot\work\bigdatawork\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\logs
 
 경로로 가면
 
-![image-20200313093115140](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313093115140.png)
+![image-20200313093115140](images/image-20200313093115140.png)
 
 
 
 내가 방문한 로그 기록이 남아있다.
 
-![image-20200313093359263](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313093359263.png)
+![image-20200313093359263](images/image-20200313093359263.png)
 
 ---
 
@@ -18,7 +18,7 @@ http://flume.apache.org/
 
 웹 서버에서 발생하는데이터를 뽑아서, hdfs에 적재하기 위해서 사용한다.
 
-![image-20200313101155596](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313101155596.png)
+![image-20200313101155596](images/image-20200313101155596.png)
 
 #### source 
 
@@ -66,31 +66,25 @@ http://flume.apache.org/
 
 
 
-1. * 
-
-
-
-
-
 
 
 1. 하둡 1번머신
 
-![image-20200313103458371](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313103458371.png)
+![image-20200313103458371](images/image-20200313103458371.png)
 
-![image-20200313103547315](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313103547315.png)
+![image-20200313103547315](images/image-20200313103547315.png)
 
 오른쪽버튼 눌러서 링크주소 복사한 뒤 터미널에서 `wget`  명령어로 설치
 
 
 
-![image-20200313103736341](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313103736341.png)
+![image-20200313103736341](images/image-20200313103736341.png)
 
 압축풀기
 
 
 
-![image-20200313103845342](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313103845342.png)
+![image-20200313103845342](images/image-20200313103845342.png)
 
 
 
@@ -98,13 +92,13 @@ http://flume.apache.org/
 
 .bashrc 들어가서 플럼의 path추가해준다. export , bin 설정정보 명시
 
-![image-20200313104154467](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313104154467.png)
+![image-20200313104154467](images/image-20200313104154467.png)
 
 
 
 bashrc 가 잘 되어있는지확인
 
-![image-20200313104735858](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313104735858.png)
+![image-20200313104735858](images/image-20200313104735858.png)
 
 아무런 메세지 나오지않으면 잘 된 것
 
@@ -112,7 +106,7 @@ bashrc 가 잘 되어있는지확인
 
 ----
 
-![image-20200313104909168](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313104909168.png)
+![image-20200313104909168](images/image-20200313104909168.png)
 
 이름뒤에 template가 붙어있으면 설정파일로 인식 못한다.
 
@@ -122,11 +116,11 @@ bashrc 가 잘 되어있는지확인
 
 (참고)scp : remote복사할 때
 
-![image-20200313105046809](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313105046809.png)
+![image-20200313105046809](images/image-20200313105046809.png)
 
 cp해서 새로 같은 파일을 만들고, 이름은 template가 빠진 상태로 만든다. 
 
-![image-20200313110718324](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313110718324.png)
+![image-20200313110718324](images/image-20200313110718324.png)
 
 
 
@@ -134,7 +128,7 @@ usr : program files 같은 것
 
 flume_env.sh 에 usr > java > jdk1.8.0_231-amd64 로 export를 적어준다.
 
-![image-20200313110942800](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313110942800.png)
+![image-20200313110942800](images/image-20200313110942800.png)
 
 
 
@@ -142,7 +136,7 @@ flume_env.sh 에 usr > java > jdk1.8.0_231-amd64 로 export를 적어준다.
 
 이번엔 flume-conf.properties파일을 rename해서 생성
 
-![image-20200313111251992](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313111251992.png)
+![image-20200313111251992](images/image-20200313111251992.png)
 
 ---
 
@@ -184,7 +178,7 @@ flume의 실행중인 프로세스를 agent라 부르며, source, channel, sink�
 
 ### Flume의 실행
 
-![image-20200313114528335](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313114528335.png)
+![image-20200313114528335](images/image-20200313114528335.png)
 
 ```
 ./bin/flume-ng agent --conf conf --conf-file./conf/console.properties --name myConsole -Dflume.root.logger=INFO,console
@@ -207,17 +201,17 @@ flume의 실행중인 프로세스를 agent라 부르며, source, channel, sink�
 
 새로 만든 console.properties파일의 내용을 전부 지우고 다시 작성한다.
 
-![image-20200313112238335](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313112238335.png)
+![image-20200313112238335](images/image-20200313112238335.png)
 
 
 
-![image-20200313112540984](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313112540984.png)
+![image-20200313112540984](images/image-20200313112540984.png)
 
 source에대한채널은 s를붙인다. 여러개의 소스들이 들어가기때문에
 
 하지만, sink에 대한 채널은 s를 붙이지 않는다. channel을 통해 하나로 나오기 때문이다.
 
-![image-20200313112950934](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313112950934.png)
+![image-20200313112950934](images/image-20200313112950934.png)
 
 `netcat` : 콘솔로 입력하는것을 받아주는 타입
 
@@ -242,9 +236,9 @@ source에대한채널은 s를붙인다. 여러개의 소스들이 들어가기�
 
 
 
-![image-20200313134940864](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313134940864.png)
+![image-20200313134940864](images/image-20200313134940864.png)
 
-![image-20200313142440233](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313142440233.png)
+![image-20200313142440233](images/image-20200313142440233.png)
 
 
 
@@ -252,7 +246,7 @@ source에대한채널은 s를붙인다. 여러개의 소스들이 들어가기�
 
 컨트롤 + 대괄호 키 누른 뒤 , `quit` 입력
 
-![image-20200313143222484](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313143222484.png)
+![image-20200313143222484](images/image-20200313143222484.png)
 
 quit으로 빠져나온다. 
 
@@ -260,37 +254,37 @@ quit으로 빠져나온다.
 
 폴더에서 폴더 (파일에서 파일로) 이동하는 작업
 
-![image-20200313143503197](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313143503197.png)
+![image-20200313143503197](images/image-20200313143503197.png)
 
 properties파일과 input, output폴더를 만든다.
 
-![image-20200313144404232](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313144404232.png)
+![image-20200313144404232](images/image-20200313144404232.png)
 
 input이 source
 
 output이 sink
 
-![image-20200313144016225](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313144016225.png)
+![image-20200313144016225](images/image-20200313144016225.png)
 
-![image-20200313144459699](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313144459699.png)
+![image-20200313144459699](images/image-20200313144459699.png)
 
 
 
-![image-20200313150613630](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313150613630.png)
+![image-20200313150613630](images/image-20200313150613630.png)
 
-![image-20200313151217672](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313151217672.png)
+![image-20200313151217672](images/image-20200313151217672.png)
 
 
 
 서버가 실행되면서, 만약 input폴더에 임의의 파일을 넣으면 output 경로에 계속 파일이 생긴다. (로그같은거)
 
-![image-20200313151850916](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313151850916.png)
+![image-20200313151850916](images/image-20200313151850916.png)
 
 
 
 이번엔 설정파일에서 rollInterval 추가
 
-![image-20200313151749490](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313151749490.png)
+![image-20200313151749490](images/image-20200313151749490.png)
 
 
 
@@ -302,21 +296,21 @@ home>hadoop > input, output에 있는 모든 파일들을 지우고 다시 실�
 
 
 
-![image-20200313160247523](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313160247523.png)
+![image-20200313160247523](images/image-20200313160247523.png)
 
 
 
 ![image-20200313160511410](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313160511410.png)
 
-![image-20200313161318708](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313161318708.png)
+![image-20200313161318708](images/image-20200313161318708.png)
 
 inputdata 복붙해서 넣어준뒤 firefox 
 
-![image-20200313161353725](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313161353725.png)
+![image-20200313161353725](images/image-20200313161353725.png)
 
 flume 폴더 생김을 확인할 수 있다.
 
-![image-20200313161434371](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200313161434371.png)
+![image-20200313161434371](images/image-20200313161434371.png)
 
 
 
