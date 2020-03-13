@@ -40,7 +40,7 @@
 
 * `+` : +앞의 패턴문자가 하나 있거나 여러 개 있거나 
 
-![image-20200224151015369](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224151015369.png)
+![image-20200224151015369](images/image-20200224151015369.png)
 
 ​	
 
@@ -48,7 +48,7 @@
 
 * `?` : ?앞의 패턴문자가 없거나 하나있거나
 
-![image-20200224151043196](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224151043196.png)	
+![image-20200224151043196](images/image-20200224151043196.png)	
 	
 	
 	
@@ -57,26 +57,26 @@
 
 * `[^ ]` : 공백이 아닌 것들을 골라낸다.
 
-![image-20200224151222221](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224151222221.png)
+![image-20200224151222221](images/image-20200224151222221.png)
 
 
 
 * `.{n}` : .은 임의의 한 문자를 의미. n은 글자수를 의미. 어떤 문자이거나 n개의 문자
   ex)`.{5}` : 5글자씩 끊어서 나온다. 
 
-![image-20200224151412630](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224151412630.png)
+![image-20200224151412630](images/image-20200224151412630.png)
 
 
 
 * `xxxx{1,3}`: 1이상 3이하
 
-![image-20200224152105430](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224152105430.png)
+![image-20200224152105430](images/image-20200224152105430.png)
 
 
 
 * `xxxx{3,}` : 3이상
 
-![image-20200224152446505](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224152446505.png)
+![image-20200224152446505](images/image-20200224152446505.png)
 
 
 
@@ -84,7 +84,7 @@
 
 * `\\W` : 대문자, 소문자, 숫자를 뺀 모두
 
-![image-20200224152539149](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224152539149.png)
+![image-20200224152539149](images/image-20200224152539149.png)
 
 
 
@@ -92,13 +92,13 @@
 
 * ` \\w` : 대문자, 소문자, 숫자 모두
 
-![image-20200224152611496](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224152611496.png)
+![image-20200224152611496](images/image-20200224152611496.png)
 
 
 
 * `\\D` : 숫자를 뺀 나머지 
 
-![image-20200224152655619](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224152655619.png)
+![image-20200224152655619](images/image-20200224152655619.png)
 
 
 
@@ -108,13 +108,13 @@
 
 ## 예제
 
-![image-20200224153247627](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224153247627.png)
+![image-20200224153247627](images/image-20200224153247627.png)
 
 
 
-![image-20200224153441320](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224153441320.png)
+![image-20200224153441320](images/image-20200224153441320.png)
 
-![image-20200224162310321](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224162310321.png)
+![image-20200224162310321](images/image-20200224162310321.png)
 
 
 
@@ -124,7 +124,7 @@
 
 
 
-![image-20200224163744490](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224163744490.png)
+![image-20200224163744490](images/image-20200224163744490.png)
 
 
 
@@ -132,7 +132,7 @@
 
 a가 3번반복되거나, i가세번반복되거나
 
-![image-20200224163904579](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224163904579.png)
+![image-20200224163904579](images/image-20200224163904579.png)
 
 
 
@@ -140,10 +140,10 @@ a가 3번반복되거나, i가세번반복되거나
 
 숫자+영문 순서는 나오지 않는다. 
 
-![image-20200224164134936](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224164134936.png)
+![image-20200224164134936](images/image-20200224164134936.png)
 
 ---
 
 ## EmailChecker : 이메일 형식 체크하기 
 
-![image-20200224171757719](C:\Users\student\AppData\Roaming\Typora\typora-user-images\image-20200224171757719.png)
+![image-20200224171757719](images/image-20200224171757719.png)
