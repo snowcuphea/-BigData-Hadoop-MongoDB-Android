@@ -1,0 +1,16 @@
+![image-20200318170356716](images/image-20200318170356716.png)
+
+![image-20200318170535996](images/image-20200318170535996.png)
+
+![image-20200318170550342](images/image-20200318170550342.png)
+
+![image-20200318170603920](images/image-20200318170603920.png)
+
+![image-20200318170617450](images/image-20200318170617450.png)
+
+
+
+
+
+https://rstudio.com/products/rstudio/download/
+
