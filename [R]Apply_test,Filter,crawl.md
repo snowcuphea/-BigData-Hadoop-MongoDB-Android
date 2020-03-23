@@ -429,7 +429,7 @@ url <- "https://www.clien.net/service/group/community?$od=T31&po=0"
 
 ![image-20200321171152370](images/image-20200321171152370.png)
 
-* `str_detect()` : 
+* `str_detect()` : 패턴 일치하는지 여부를 검사한다. True인 값을 url_data에 저장한다. 
 
 ```R
 url_data[str_detect(url_data,"subject_fixed")]
@@ -461,7 +461,7 @@ url_data[str_detect(url_data,"subject_fixed")]
 
 ![image-20200321173054136](images/image-20200321173054136.png)
 
-
+str_extract 의 전방, 후방탐색을 함께 활용
 
 
 
@@ -550,6 +550,10 @@ url_val <- str_sub(url_val, end= -3)
 
 이런 점들을 주의해서 작업하도록 한다. 
 
+![image-20200323093220756](images/image-20200323093220756.png)
+
+이렇게 `[-1]`을 뒤에 붙여서 맨 위 공지값을 뺀 30개만 나오게 처리할 수 있다.
+
 
 
 #### 데이터 뽑을 때 키워드 추출하는 방법
@@ -563,4 +567,6 @@ Copy Selector :     #div_content > div.list_content > div:nth-child(4) > div.lis
 ![image-20200321175827536](images/image-20200321175827536.png)
 
 Copy XPath :    //*[@id="div_content"]/div[6]/div[4]/div[4]
+
+
 
