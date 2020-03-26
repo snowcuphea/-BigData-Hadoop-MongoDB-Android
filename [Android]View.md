@@ -341,3 +341,61 @@ file > setting >
 
 ![image-20200325174340931](images/image-20200325174340931.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+# Relative Layout
+
+---
+
+2020 03 26 목
+
+![image-20200326092115545](images/image-20200326092115545.png)
+
+새로운 파일명 : ViewTestActivity 
+
+![image-20200326092454448](images/image-20200326092454448.png)
+
+
+
+색상 선택 가능
+
+![image-20200326092622478](images/image-20200326092622478.png)
+
+
+
+* 부모를 기준으로 가운데로 이동 `layout_centerInParent` 
+
+  ![image-20200326092811196](images/image-20200326092811196.png)
+
+  
+
+![image-20200326093104634](images/image-20200326093104634.png)
+
+여러가지 align 속성을 이용할 수 있다. 
+
+![image-20200326093229938](images/image-20200326093229938.png)
+
+
+
+![image-20200326093404055](images/image-20200326093404055.png)
+
+맨마지막에 작성한 것이 맨 위로 올라온다. 
+
+
+
+# Table Layout
+
+![image-20200326101554716](images/image-20200326101554716.png)
+
+
+
